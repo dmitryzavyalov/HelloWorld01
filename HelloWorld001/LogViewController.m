@@ -38,6 +38,8 @@
 - (void)printLog
 {
     NSLog(@"Print log from brunch 01");
+    NSLog(@"Print log from brunch 020");
+    NSLog(@"Print log from brunch 021");
 }
 
 @end
