@@ -39,6 +39,7 @@
 - (void)logFunction
 {
     NSLog(@"My log string");
+    NSLog(@"My log string number 2");
 }
 
 @end
