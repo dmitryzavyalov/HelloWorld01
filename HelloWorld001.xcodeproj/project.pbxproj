@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A34039F19531FAA00EC6082 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A34039E19531FAA00EC6082 /* ViewController.m */; };
 		0A9DFD3719531D79008C43C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9DFD3619531D79008C43C6 /* Foundation.framework */; };
 		0A9DFD3919531D79008C43C6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9DFD3819531D79008C43C6 /* CoreGraphics.framework */; };
 		0A9DFD3B19531D79008C43C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A9DFD3A19531D79008C43C6 /* UIKit.framework */; };
@@ -32,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A34039D19531FAA00EC6082 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A34039E19531FAA00EC6082 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0A9DFD3319531D79008C43C6 /* HelloWorld001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld001.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A9DFD3619531D79008C43C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0A9DFD3819531D79008C43C6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +114,8 @@
 				0A9DFD4619531D79008C43C6 /* AppDelegate.m */,
 				0A9DFD4819531D79008C43C6 /* Images.xcassets */,
 				0A9DFD3D19531D79008C43C6 /* Supporting Files */,
+				0A34039D19531FAA00EC6082 /* ViewController.h */,
+				0A34039E19531FAA00EC6082 /* ViewController.m */,
 			);
 			path = HelloWorld001;
 			sourceTree = "<group>";
@@ -239,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A34039F19531FAA00EC6082 /* ViewController.m in Sources */,
 				0A9DFD4719531D79008C43C6 /* AppDelegate.m in Sources */,
 				0A9DFD4319531D79008C43C6 /* main.m in Sources */,
 			);
@@ -441,6 +447,7 @@
 				0A9DFD6119531D79008C43C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A9DFD6219531D79008C43C6 /* Build configuration list for PBXNativeTarget "HelloWorld001Tests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +456,7 @@
 				0A9DFD6419531D79008C43C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
